@@ -7,7 +7,11 @@ const Counter = () => {
     setValue(value+1);
   }
   return (
-   <button onClick={counter}>this is the value {value}</button>
+    <>
+    <h1>this is counter button</h1>
+    <button onClick={counter}>this is the value {value}</button>
+    </>
+
   )
 }
 
